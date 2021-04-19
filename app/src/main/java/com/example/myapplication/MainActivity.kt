@@ -21,10 +21,8 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
-        AppCenter.start(
-            application, "95981257-aab8-4aa3-8b10-d6bc5004ae02",
-            Analytics::class.java, Crashes::class.java
-        )
+        AppCenter.start(application, "bb51bcc6-1065-43d0-b9cb-dc427f41e9f9",
+                Analytics::class.java, Crashes::class.java)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

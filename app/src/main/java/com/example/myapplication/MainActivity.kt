@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
-        AppCenter.start(application, "4299e9b8-f49f-475f-bbf3-0a32751fc9d3",
+        AppCenter.start(application, "95981257-aab8-4aa3-8b10-d6bc5004ae02",
                 Analytics::class.java, Crashes::class.java)
     }
 

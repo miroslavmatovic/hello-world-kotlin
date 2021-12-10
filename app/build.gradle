@@ -17,6 +17,20 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+
+        release {
+            storeFile file("D:\\PROJECTS\\keystore\\bakcslash.keystore")
+            storePassword "appcenter"
+            keyAlias "appcenter"
+            keyPassword '\'$Ks3Mk\\\\\'&,7y}j]v'
+
+            // Optional, specify signing versions used
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false

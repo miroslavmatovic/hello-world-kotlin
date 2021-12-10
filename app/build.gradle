@@ -20,7 +20,7 @@ android {
     signingConfigs {
 
         release {
-            storeFile file("D:\\PROJECTS\\keystore\\bakcslash.keystore")
+            storeFile file("./bakcslash.keystore")
             storePassword "appcenter"
             keyAlias "appcenter"
             keyPassword '\'$Ks3Mk\\\\\'&,7y}j]v'
